@@ -1,0 +1,12 @@
+---
+name: 'PHP Lint'
+description: 'Run Lint Against Pull Request'
+author: 'Igor Ermentraut <i.ermentraut@webweit.de>'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'code'
+  color: 'gray-dark'
