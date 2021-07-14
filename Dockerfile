@@ -15,7 +15,7 @@ RUN \
 
 FROM php:${PHP_VERSION}-cli
 
-WORKDIR /code
+WORKDIR /github/workspace
 
 COPY --from=build /tmp/vendor /root/.composer/vendor
 

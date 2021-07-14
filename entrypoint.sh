@@ -3,7 +3,7 @@
 set -xe
 
 if [ -f /code/.phplint.yml ]; then
-  /root/.composer/vendor/bin/phplint -vvv -c /code/.phplint.yml -- /code
+  /root/.composer/vendor/bin/phplint -vvv -c /code/.phplint.yml -- /github/workspace
 else
   /root/.composer/vendor/bin/phplint \
     -vvv \
@@ -13,5 +13,5 @@ else
     --exclude=node_modules \
     --extensions=php \
     --jobs=10 \
-    -- /code
+    -- /github/workspace
 fi
