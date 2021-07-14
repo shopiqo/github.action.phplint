@@ -10,7 +10,8 @@ else
     --no-configuration \
     --warning \
     --exclude=vendor \
+    --exclude=node_modules \
     --extensions=php \
-    --jobs=5
+    --jobs=10 \
     -- /code
 fi
