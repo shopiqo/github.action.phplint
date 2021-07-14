@@ -4,7 +4,8 @@ name: PHP Linting
 on:
   push:
     branches:
-      - dev
+      - 'master'
+      - 'dev'
       - 'feature/**'
 
   pull_request:
@@ -21,6 +22,6 @@ jobs:
   phplint:
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@v2
+        - uses: 'actions/checkout@v2'
 
-        - uses: iermentraut/PHPLint-GHAction@v1.0
+        - uses: 'iermentraut/PHPLint-GHAction@v1.0'
