@@ -1,13 +1,11 @@
 # GitHub Action for PHPLint
 
-GitHub Action implementation of the PHPLint Package provided by [@Overtrue/phplint](https://github.com/overtrue/phplint). 
+[GitHub Action](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) implementation of the 
+PHPLint Package provided by [@Overtrue/phplint](https://github.com/overtrue/phplint). 
 
 ## Usage
 
-Use with [GitHub Actions](https://github.com/features/actions)
+Create a new workflow file under `.github/workflows` inside your repository 
+(e.g. [.github/workflows/phplint.yml](examples/.github/workflows/phplint.yml)).
 
-_.github/workflows/phplint.yml_
-
-[example](examples/.github/workflows/phplint.yml)
-
-If provided, a `.phplint.yml` file in the root will be used for configuration during run of the Action.
+If provided, a `.phplint.yml` will be used for configuration during run of the Action.
