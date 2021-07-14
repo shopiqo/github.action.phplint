@@ -1,9 +1,0 @@
-path: /code
-jobs: 10
-# cache: build/phplint.cache
-extensions:
-  - php
-exclude:
-  - vendor
-  # - var/cache
-warning: true

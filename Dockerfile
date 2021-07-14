@@ -19,7 +19,7 @@ WORKDIR /code
 
 COPY --from=build /tmp/vendor /root/.composer/vendor
 
-COPY .phplint.yml /root/.phplint.yml
+# COPY .phplint.yml /root/.phplint.yml
 
 COPY entrypoint.sh /entrypoint.sh
 
