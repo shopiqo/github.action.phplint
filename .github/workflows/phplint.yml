@@ -24,4 +24,4 @@ jobs:
     steps:
         - uses: 'actions/checkout@v2'
 
-        - uses: 'iermentraut/PHPLint-GHAction@v1.0'
+        - uses: 'iermentraut/PHPLint-GHAction@master'
