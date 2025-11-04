@@ -6,7 +6,7 @@ PHPLint Package provided by [@Overtrue/phplint](https://github.com/overtrue/phpl
 ## Usage
 
 Create a new workflow file under `.github/workflows` inside your repository 
-(e.g. [.github/workflows/phplint.yml](examples/.github/workflows/phplint.yml)).
+(e.g. `.github/workflows/ci.yml`).
 
 ```yaml
 name: CI
@@ -17,7 +17,8 @@ jobs:
   phplint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5.0.0
+
       - name: "Run PHPLint"
         uses: "shopiqo/github-action-phplint@v2.0.0"
         with:
