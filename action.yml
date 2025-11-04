@@ -7,6 +7,32 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
 
+inputs:
+  path:
+    description: 'Path to be linted'
+    required: false
+    default: '.'
+  config_file:
+    description: 'Path to phplint config file'
+    required: false
+    default: '.phplint.yml'
+  jobs:
+    description: 'Amount of parallel jobs'
+    required: false
+    default: '10'
+  extensions:
+    description: 'Check for file extensions'
+    required: false
+    default: 'php'
+  exclude:
+    description: 'Exclude path'
+    required: false
+    default: 'vendor,node_modules'
+  warning:
+    description: 'Show warnings'
+    required: false
+    default: 'true'
+
 branding:
   icon: 'code'
   color: 'gray-dark'
