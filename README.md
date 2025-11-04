@@ -9,7 +9,7 @@ Create a new workflow file under `.github/workflows` inside your repository
 (e.g. [.github/workflows/phplint.yml](examples/.github/workflows/phplint.yml)).
 
 ```yaml
-name: PHPLint
+name: CI
 
 on: [push]
 
