@@ -11,7 +11,7 @@ Create a new workflow file under `.github/workflows` inside your repository
 ```yaml
 name: PHPLint
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   phplint:
