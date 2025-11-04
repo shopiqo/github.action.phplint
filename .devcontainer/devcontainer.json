@@ -1,0 +1,18 @@
+{
+	"name": "PHP Action",
+	"build": {
+		"dockerfile": "../Dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bmewburn.vscode-intelephense-client",
+				"DEVSENSE.phptools-vscode",
+				"EditorConfig.EditorConfig",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"remoteUser": "root"
+}
