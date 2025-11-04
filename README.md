@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: "Run PHPLint"
-        uses: "shopiqo/github-action-phplint@v2"
+        uses: "shopiqo/github-action-phplint@v2.0.0"
         with:
           path: "src/"
 ```
