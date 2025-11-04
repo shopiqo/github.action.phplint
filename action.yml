@@ -1,7 +1,7 @@
 ---
 name: 'PHP Lint'
 description: 'Run Lint Against Pull Request'
-author: 'Igor Ermentraut <i.ermentraut@webweit.de>'
+author: 'Shopiqo UG (haftungsbeschränkt) <devops@shopiqo.com>'
 
 runs:
   using: 'docker'
